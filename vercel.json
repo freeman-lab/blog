@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/demos/:match*",
+      "source": "/blog/demos/:match*",
       "destination": "https://demos.jeremyfreeman.net/demos:match*"
     }
   ]
