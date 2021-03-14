@@ -13,7 +13,6 @@ const Index = () => {
     <Box>
     <Link sx={{fontSize: [1]}} href='/'>home</Link>
     </Box>
-    <Box>
     <Box sx={{fontSize: [5]}}>blog</Box>
     <Box>
     <Link sx={{fontSize: [3]}} href='/blog/demos'>demos</Link>
