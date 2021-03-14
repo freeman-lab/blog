@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { useColorMode, Button, Box } from 'theme-ui'
+import { useColorMode, Button, Box, Link } from 'theme-ui'
 
 const Index = () => {
   const [colorMode, setColorMode] = useColorMode()
@@ -10,6 +10,7 @@ const Index = () => {
 
   return <Box sx={{px: [4], py: [4]}}>
     <Box sx={{fontSize: [5]}}>blog</Box>
+    <Link sx={{fontSize: [3]}} href='/demos'>demos</Link>
     <Button onClick={toggle}>Toggle theme</Button>
   </Box>
 }
