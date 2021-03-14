@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "blog for homepage",
+  "main": "theme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next -p 5000",
+    "build": "next build",
+    "start": "next start -p 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeman-lab/blog.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freeman-lab/blog/issues"
+  },
+  "homepage": "https://github.com/freeman-lab/blog#readme",
+  "dependencies": {
+    "@theme-ui/presets": "^0.3.5",
+    "next": "^10.0.6",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "theme-ui": "^0.3.5"
+  }
+}
