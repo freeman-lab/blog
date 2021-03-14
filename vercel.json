@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/demos/:match*",
+      "destination": "https://demos.jeremyfreeman.net/:match*"
+    }
+  ]
+}
